@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #542E71;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: #9c99c2;
+}
+
+h1 {
+    margin-bottom: -10px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lightning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#seconds {
+    height: 30px;
+    width: 150px;
+    outline: none;
+    border: none;
+    background: #542E71;
+    border-bottom: 1px solid lightgray;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    color:#9c99c2;
+    text-align: center;
+}
+
+.click {
+    height: 30px;
+    width: 90px;
+    margin-left: 15px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #9c99c2;
+    color: #542E71;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#result {
+    height: 300px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#distance {
+    margin-top: -5px;
+}
+
+.span1 {
+    margin-right: 3px;
+}
